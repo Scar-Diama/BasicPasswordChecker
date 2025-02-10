@@ -2,9 +2,9 @@ import re
 
 flags = []
 
-welcome_message = """
-    Greetings! Please choose a password for your account, please ensure your password is within our guidelines
-    to allow for a secure account! To see our guidelines, please input "!Help" """
+welcome_message = f"""Greetings! Please choose a password for your account, ensure your password is within our guidelines
+to allow for a secure account! To see our guidelines, please input "!Help" 
+"""
 
 print(welcome_message)
 
@@ -40,5 +40,6 @@ while True:
     else:
         for flag in flags:
             print(flag)
+        flags.clear()
 
 
