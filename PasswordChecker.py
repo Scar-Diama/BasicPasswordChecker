@@ -4,8 +4,6 @@ flags = []
 
 welcome_message = """
     Greetings! Please choose a password for your account, please ensure your password is within our guidelines
-has_spaces = ' ' in user_password   #Checks for spaces
-is_empty = (chara_count == 0)       #Checks length of input
     to allow for a secure account! To see our guidelines, please input "!Help" """
 
 print(welcome_message)
